@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画板</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/palette.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="out">
+		<div class="box">
+			<div class="inner">画图小助手</div>
+			<div class="ts">
+				<div class="create iconfont">&#xe748;</div>
+				<div class="save iconfont">&#xe645;</div>
+				<div class="back iconfont">&#xe66f;</div>
+				<div class="go iconfont">&#xe670;</div>
+			</div>
+			<section class="fillcolor">
+				<input type="checkbox">
+				<div>填充</div>
+				<input type="color" value="#66ce99">
+			</section>
+			<section class="strokecolor">
+				<input type="checkbox" checked="true">
+				<div>描边</div>
+				<input type="color" value="#aace55">
+			</section>
+			<section class="lineWidth">
+				<div>线宽</div>
+				<input type="range" max=100  min=1  value="1">
+			</section>
+			<div class="iconfont" id="line">&#xe601;</div>
+			<div class="iconfont" id="rect">&#xe6dd;</div>
+			<div class="iconfont" id="arc">&#xe6dc;</div>
+			<div class="iconfont" id="poly">&#xe6de;</div>
+			<div class="iconfont hot" id="jiao">&#xe635;</div>
+			<div class="iconfont" id="pen">&#xe607;</div>
+			<div class="iconfont" id="er">&#xe886;</div>
+		</div>
+		<div class="canvas-box">
+			
+		</div>
+	</div>
+
+</body>
+</html>
